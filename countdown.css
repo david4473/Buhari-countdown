@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "omegle";
+    src: url("./font/OMEGLE.ttf");
+}
+
+@font-face {
+    font-family: "Vitreous";
+    src: url("./font/Vitreous-Black.ttf");
+}
+
+@font-face {
+    font-family: "0629";
+    src: url("./font/0629____.TTF");
+}
+
+@font-face {
+    font-family: "Full-Tilt";
+    src: url("./font/Full-TiltBoogieNF.ttf");
+}
+
+@font-face {
+    font-family: "Lobster";
+    src: url("./font/Lobster.ttf");
+}
+
+@font-face {
+    font-family: "ANTICLIMAX";
+    src: url("./font/ANTICLIMAX.TTF");
+}
+
+@font-face {
+    font-family: "youmurderer";
+    src: url("./font/youmurdererbb_reg.ttf");
+}
+
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 'header header header header header header'
+                          'main main main main main main'
+                          'footer footer footer footer footer footer';
+                          background:
+                          /* top, transparent black, faked with gradient */ 
+                          linear-gradient(
+                            rgba(0, 0, 0, 0.7), 
+                            rgba(0, 0, 0, 0.7)
+                          ),
+                          /* bottom, image */
+                          url(./image/1554231.jpg);
+                          overflow-x: hidden;
+                          
+}
+
+header{
+    grid-area: header;
+    text-align: left;
+}
+
+main{
+    grid-area: main;
+    text-align: center;
+}
+
+footer{
+    grid-area: footer;
+    text-align: center;
+}
+
+.countdown{
+    font-family: "Full-Tilt";
+    font-size: 80px;
+    color: rgb(182, 182, 182);
+    text-align: left;
+    margin: 200px auto 0 90px;
+    max-width: 55rem;
+    
+}
+
+.img-container{
+    margin: 0;
+}
+
+img{
+    width: 60rem;
+    height: 60rem;
+    margin: 0 70px;
+    filter: grayscale(100%);
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+}
+
+header h1{
+    color: white;
+    font-family: "ANTICLIMAX";
+    font-size: 50px;
+    position: relative;
+    top: 3rem;
+    left: 3rem;
+}
+
+.credit{
+    color: white;
+    font-family: "ANTICLIMAX";
+    font-size: 20px;
+    position: relative;
+    bottom: 2.5rem;
+    left: -35rem;
+}
+
+.special{
+    font-family: "youmurderer";
+    color: brown;
+    font-size: 350px;
+    transform: rotate(-9deg);
+    margin: 70px 0 0 50px;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+@media only screen and (min-width: 600px) {
+    
+}
+
+

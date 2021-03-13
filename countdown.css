@@ -238,3 +238,151 @@ header h1{
   }
 }
 
+/* iphone screens */
+
+/* iphone 6 + */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .countdown{
+        position: relative;
+       font-size: 40px;
+       right: 15rem;
+       width: 30rem;
+       top: -9rem;
+       margin: 0;
+       padding: 0;
+    }
+  
+    img{
+        position: absolute;
+        top: 31.5rem;
+        left: -1.5rem;
+        width: 100%;
+        margin-bottom: 0;
+    }
+  
+    .special{
+        font-size: 150px;
+        width: 300px;
+        margin: -50px 0 0 120px;
+    }
+  
+    header h1{
+        width: 700px;
+      position: absolute;
+      margin-top: -20px;
+      font-size: 46px;
+    }
+  
+    .credit{
+        margin: 0;
+        left: 11rem;
+        top: 62rem;
+    }
+  
+    .socials{
+        font-size: 13px;
+        right: -2rem;
+    }
+}
+
+/* iphone x */
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .countdown{
+        position: relative;
+       font-size: 40px;
+       right: 15rem;
+       width: 30rem;
+       top: -9rem;
+       margin: 0;
+       padding: 0;
+    }
+  
+    img{
+        position: absolute;
+        top: 31.5rem;
+        left: -1.5rem;
+        width: 100%;
+        margin-bottom: 0;
+    }
+  
+    .special{
+        font-size: 150px;
+        width: 300px;
+        margin: -50px 0 0 120px;
+    }
+  
+    header h1{
+        width: 700px;
+      position: absolute;
+      margin-top: -20px;
+      font-size: 46px;
+    }
+  
+    .credit{
+        margin: 0;
+        left: 11rem;
+        top: 62rem;
+    }
+  
+    .socials{
+        font-size: 13px;
+        right: -2rem;
+    }
+
+}
+
+/* Nexus 6 + */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 592px) 
+  and (-webkit-device-pixel-ratio: 4) {
+    .countdown{
+        position: relative;
+       font-size: 40px;
+       right: 15rem;
+       width: 30rem;
+       top: -9rem;
+       margin: 0;
+       padding: 0;
+    }
+  
+    img{
+        position: absolute;
+        top: 31.5rem;
+        left: -1.5rem;
+        width: 100%;
+        margin-bottom: 0;
+    }
+  
+    .special{
+        font-size: 150px;
+        width: 300px;
+        margin: -50px 0 0 120px;
+    }
+  
+    header h1{
+        width: 700px;
+      position: absolute;
+      margin-top: -20px;
+      font-size: 46px;
+    }
+  
+    .credit{
+        margin: 0;
+        left: 11rem;
+        top: 62rem;
+    }
+  
+    .socials{
+        font-size: 13px;
+        right: -2rem;
+    }
+
+}
